@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+h1 {
+  color: rgb(30, 151, 162);
+  text-align: center;
+  font-size: 2.5rem;
+}
+.searchBar {
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  height: 2rem;
+  font-size: 2rem;
+  margin: 1rem;
+}
+.searchBar:focus {
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+}
+::placeholder {
+  color: rgb(255, 255, 255);
+}
+.submit {
+  height: 2.3rem;
+  margin: 1rem;
+  width: 6rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+.flexBody {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+  justify-content: space-around;
+}
+.card {
+  text-align: left;
+  width: 15rem;
+  height: 20rem;
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+  margin: 1rem;
+}
+.card::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(255, 249, 249, 0.345);
+  width: 14rem;
+  height: 1.5rem;
+  z-index: 1;
+  top: 95%;
+  left: 3.5%;
+  border-radius: 30px;
+}
+.cardItems {
+  margin: 1rem;
+  margin-left: 2rem;
+}
+.name {
+  font-size: 1.5rem;
+  color: rgb(94, 92, 92);
+}
+.cloudIcon {
+  margin: 1rem 0;
+}
+.weather {
+  color: rgb(94, 92, 92);
+  font-size: 1.1rem;
+}
+.temp {
+  font-size: 1.7rem;
+}
+.errorMsg {
+  color: white;
+}
+.repeatCityMsg {
+  color: white;
+}
+.hidden {
+  display: none;
+}
